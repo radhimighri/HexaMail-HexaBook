@@ -1,0 +1,385 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+@import url('https://fonts.googleapis.com/css?family=Times+New+Roman');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+/********************************************************************************LOGIN****************************************************************************************/
+
+html,body{
+background-image: url('Images/background.png');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+
+
+.card-header h3{
+color: white;
+}
+
+.card-footer{
+	margin-bottom: 20px;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #376eac;
+color: black;
+border:0 !important;
+}
+
+input:focus{ 
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+
+.login_btn{
+color: black;
+background-color: #376eac;
+width: 200px;
+margin-top: 10px;
+margin-left: 80px;
+}
+
+.login_btn:hover{
+color: #376eac;
+background-color: rgba(12,19,27,0.5);
+}
+
+.links{
+color: white;
+margin-top: -20px;
+}
+
+.links a{
+margin-left: 4px;
+
+}
+
+.logo{
+	position: absolute;
+	right: -320px;
+	top: -100px;
+	width: 800px;
+	height: 400px;
+    filter: opacity(50%); 
+}
+
+
+
+@keyframes example 
+{
+  0%   {left:240px; top:48px;}
+  25%  {left:815px; top:48px;}
+  50%  {left:815px; top:520px;}
+  75%  {left:240px; top:520px;}
+  100% {left:240px; top:48px;}
+}
+
+/* The element to apply the animation to */
+.polylogo {	
+
+  width: 300;
+  height: 200;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+}
+
+#msgloginerreur{	
+    color:red;
+    position: absolute;
+    top: 68%;
+    left: 43%;
+	text-align:left;
+    margin-left: 0px; /* margin is -0.5 * dimension */
+    margin-top: -50px; 
+    font-family: 'Times New Roman';
+    font-size: 1vw;
+}
+
+/********************************************************************************DOWNLOAD****************************************************************************************/
+
+.lds-roller {
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left:48%;
+  top:50%;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #cef;
+  margin: -3px 0 0 -3px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/********************************************************************************DOWNLOAD****************************************************************************************/
+
+
+/*********************************************************************************LOGIN****************************************************************************************/
+
+
+
+
+
+
+/********************************************************************************INSCRIPTION****************************************************************************************/
+
+.containerr{
+height: 90%;
+align-content: center;
+}
+
+
+.cardd{
+height: 670px;
+margin-top: auto;
+margin-bottom: auto;
+width: 700px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.form-control{
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+.countrycss{
+	position: absolute;
+	left: 100px;
+    align-content: center;
+}
+
+.btnsignup{
+	position: absolute;
+	top: 73px;
+    left: 135;
+}
+
+#signup{
+	text-align:center;
+	color: #0066CC;
+	font-family: 'Bangers', cursive;
+    font-size: 3vw;
+}
+
+#msgerreur{
+	position: absolute;
+	left: 595px;
+	bottom: 137px;
+	color:red;
+	font-family: 'Times New Roman';
+    font-size: 1.2vw;
+}
+
+#mailcreate{
+	position: absolute;
+	left: 450px;
+	bottom: 137px;
+	color:green;
+	font-family: 'Times New Roman';
+    font-size: 1.4vw;
+}
+
+/* .logosignup{ */
+	/* position: absolute; */
+	/* left:-500px; */
+	/* top: -20px; */
+    /* filter: opacity(40%); max-width: 20%; */
+    /* height: auto; */
+/* } */
+#myImage{
+    width: 40%;
+    height: auto;
+	position: absolute; 
+    left:125;
+    top: 460;
+	filter: opacity(40%)
+}
+
+
+
+
+
+
+/*********************************************************************************RADIO****************************************************************************************/
+
+/* The container */
+.containerer {
+  display: block;
+  position: relative;
+  padding-left: 55px;
+  margin-left: 150px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  font-family: 'Times New Roman';
+  font-size: 1.4vw;
+  color:blue;
+}
+
+/* Hide the browser's default radio button */
+.containerer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerer input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerer .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/**********************************************************************************RADIO************************************************************************************/
+
+/********************************************************************************INSCRIPTION****************************************************************************************/
